@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador de mensajes | Alura Challenge</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="images/alura-logo.ico" type="image/x-icon">
+</head>
+<body>
+  <h1 style="position: absolute; top: -100px;">Encriptador de mensajes | Alura Challenge</h1>
+  <main>
+    <section class="left-section">
+      <div class="logo-wrapper">
+        <img src="images/alura-logo.png" alt="Logo de Alura">
+      </div>
+      <div class="input-wrapper">
+        <textarea id="to-encrypt" class="to-encrypt" placeholder="Ingrese el texto aquí"></textarea>
+        <div class="btns-wrapper">
+          <div class="encrypt-btn">
+            <p class="info">Solo letras minúsculas y sin acentos</p>
+            <button type="button" class="btn-enc btn" id="enc-btn">Encriptar</button>
+          </div>
+          <button type="button" class="btn-dec btn" id="dec-btn">Desencriptar</button>
+        </div>
+      </div>
+    </section>
+    <section class="right-section" id="output-box">
+      <img src="images/munieco.png" alt="Una persona encontrando un diamante utilizando una lupa" class="hero-image">
+      <h2 clas="not-found">Ningún mensaje fue encontrado</h2>
+      <p clas="not-found--placeholder">Ingresa el texto que desees encriptar o desencriptar</p>
+    </section>
+  </main>
+  <script src="scripts/index.js"></script>
+</body>
+</html>
